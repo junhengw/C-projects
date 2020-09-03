@@ -110,7 +110,7 @@ typedef struct reviewNode_struct
 } ReviewNode;
 
 
-void printshit(ReviewNode *node) {
+void printitems(ReviewNode *node) {
     printf("%s\n\n", node->review.movie_title);
     printf("%s\n\n", node->review.movie_studio);
     printf("%d\n", node->review.year);
